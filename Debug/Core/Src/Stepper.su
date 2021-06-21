@@ -1,0 +1,3 @@
+Stepper.c:37:7:PID_Control	48	static
+Stepper.c:61:6:Speed_Actuation	40	static
+Stepper.c:133:7:LQR_Control	40	static
