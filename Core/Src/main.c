@@ -53,7 +53,7 @@
 /* USER CODE BEGIN PV */
 char uart_buf[50];
 int uart_buf_len;
-uint16_t start_t = 0, end_t;
+//uint16_t start_t = 0, end_t;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -126,7 +126,7 @@ int main(void)
   HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_1);
 
   HAL_TIM_Base_Start_IT(&htim10);
-  HAL_TIM_Base_Start_IT(&htim11);
+  //HAL_TIM_Base_Start(&htim11);
 
   /* USER CODE END 2 */
 
